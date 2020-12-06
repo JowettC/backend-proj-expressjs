@@ -55,6 +55,9 @@ app.post('/api/courses',(req,res)=>{
     courses.push(course);
     res.send(course);
 });
+app.put('/api/courses/:id',(req,res)=>{
+    
+})
 
 // PORT (envrioment variable)
 const port = process.env.PORT || 3000
